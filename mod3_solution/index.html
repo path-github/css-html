@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Module 3 Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default ">
+         <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand" id="bkToTop">
+              <a href="index.html"><h1>Food, LLC</h1></a>
+            </div> 
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs">
+                <a href="#ChickenID"> Chicken</a>
+              </li>
+              <li class="visible-xs">
+                <a href="#BeefID"> Beef</a>
+              </li>
+              <li class="visible-xs">
+                 <a href="#SushiID"> Sushi</a>
+              </li>
+            </ul><!-- #nav-list -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="main-content" class="container" >
+      <h1 class="menu-head">Our Menu</h1>
+      <row id="main-tiles" class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12" id="ChickenID">
+          <div class="menu-item-description">
+            <h3 class="menu-item-title" >Chicken</h3>
+            <p class="menu-item-details">Navbar: Create a navbar that scrolls away together with the page (the navbar should become invisible and is not fixed to the top when you scroll the page down). The navbar should have a company name (i.e., navbar-brand class) called "Food, LLC" that is aligned to the left side of the navbar <a class="visible-xs" href="#bkToTop"> back to Top </a></p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" id="BeefID">
+          <div class="menu-item-description" >
+            <h3 class="menu-item-title" >Beef</h3>
+            <p class="menu-item-details">Navbar: Create a navbar that scrolls away together with the page (the navbar should become invisible and is not fixed to the top when you scroll the page down). The navbar should have a company name (i.e., navbar-brand class) called "Food, LLC" that is aligned to the left side of the navbar (End of Section) <a class="visible-xs" href="#bkToTop"> back to Top </a>
+            </p>
+
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12" id="SushiID">
+          <div class="menu-item-description">
+            <h3 class="menu-item-title">Sushi</h3>
+            <p class="menu-item-details">Navbar - Mobile View: Create a simple menu button (3 horizontal bars). When the user clicks that button, a dropdown menu should appear (as illustrated in Mobile Open Menu illustration below.) The dropdown menu should contain 3 items: Chicken, Beef, and Sushi. 
+            The dropdown menu should take up the entire width of the browser window. Make sure the dropdown menu has a background color set that distinguishes it from the rest of the content..<a class="visible-xs" href="#bkToTop"> back to Top </a></p>
+          </div>
+        </div>
+      </row>
+    </div>
+     <!-- jQuery (Bootstrap JS plugins depend on it) -->
+     <script src="js/jquery-2.1.4.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/script.js"></script>
+  </body>
+</html>
